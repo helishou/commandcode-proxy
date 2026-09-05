@@ -2,19 +2,19 @@
 
 > [中文文档](README_zh.md)
 
-<p align="center">Command Code → OpenAI / Anthropic 兼容 API 代理。单文件、零依赖。</p>
+A reverse proxy that converts Command Code API to OpenAI / Anthropic compatible endpoints. Single file, zero external dependencies.
 
 > [!WARNING]
-> 免责声明：
+> Disclaimer:
 >
-> 本项目涉及对 Command Code 官方 CLI 网络流量的分析与接口协议复现，仅供个人学习、技术研究与非商业性技术交流使用。
+> This project involves analyzing official CLI network traffic and replicating the Command Code API protocol. It is intended **solely for personal learning, technical research, and non-commercial technical exchange**.
 >
-> - 严禁将本项目用于任何商业用途、盈利性使用、批量操作、自动化滥用或规模化调用。
-> - 严禁将本项目用于破坏市场秩序、恶意竞争、套利倒卖、二次售卖相关服务，以及任何违反 Command Code 服务条款或当地法律法规的行为。
-> - 严禁将本项目用于生成、传播或协助生成违法、暴力、色情、未成年人相关内容，或用于诈骗、欺诈、骚扰等非法或不当用途。
-> - 使用者应自行承担全部风险，包括但不限于账号被限制、临时封禁或永久封禁以及因违规使用等所导致的法律责任。
-> - 使用本项目即视为你已充分理解并同意本免责声明全部内容；如因滥用、违规或违法使用造成任何后果，均由使用者自行承担。
-> - 本项目基于对 Command Code 官方 CLI 网络流量的被动分析实现，未对服务端进行任何未授权访问、破解或篡改。使用过程中请保持与正常 CLI 一致的调用频率，极高并发可能触发风控。
+> - **Commercial use is strictly prohibited**: No commercial use, for-profit operations, batch operations, automated abuse, or large-scale invocation.
+> - **No violations**: Do not use this project to disrupt market order, engage in malicious competition, arbitrage, resale of services, or violate the Command Code Terms of Service or local laws.
+> - **No illegal content**: Do not use this project to generate, distribute, or assist in generating illegal, violent, pornographic, or harmful content, or for fraud, scams, or harassment.
+> - **Use at your own risk**: Users assume all responsibility, including but not limited to account restrictions, temporary bans, or permanent bans.
+> - **By using this project, you acknowledge and agree to this disclaimer in full.** Any consequences arising from misuse, violations, or illegal use are the sole responsibility of the user.
+> - **Unofficial**: This project is based on passive analysis of local CLI network traffic. No unauthorized access, cracking, or tampering of the server was performed. Keep usage frequency consistent with normal CLI usage — extremely high concurrency may trigger risk controls.
 
 Built by analyzing official CLI network traffic to accurately replicate the Command Code API request protocol, including device-fingerprint and lifecycle pre-requests.
 
